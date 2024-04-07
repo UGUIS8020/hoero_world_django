@@ -5,6 +5,9 @@ from django.contrib import messages
 def index(request):
     return render(request, 'index.html')
 
+def login(request):
+    return render(request, 'login.html')
+
 def user_maintenance(request):
     return render(request, 'user_maintenance.html')
 
