@@ -8,8 +8,11 @@ def index(request):
 def login(request):
     return render(request, 'login.html')
 
-def user_maintenance(request):
-    return render(request, 'user_maintenance.html')
+# def register(request):
+#     return render(request, 'register.html')
+
+# def user_maintenance(request):
+#     return render(request, 'user_maintenance.html')
 
 def user_page(request, user_name):
     return HttpResponse(f'<h1>{user_name}\'s</h1>')
